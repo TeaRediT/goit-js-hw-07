@@ -1,5 +1,4 @@
 const formEl = document.querySelector('.login-form');
-const emailInput = formEl.firstElementChild.firstElementChild;
 
 formEl.addEventListener('submit', event => {
   event.preventDefault();
