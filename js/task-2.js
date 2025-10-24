@@ -32,6 +32,5 @@ const markup = images
       `<li class=task-two-li><img src=${el.url} alt="${el.alt}" class=img /></li>`
   )
   .join('');
-console.log(markup);
 
 ulEl.insertAdjacentHTML('afterbegin', markup);
